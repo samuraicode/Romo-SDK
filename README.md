@@ -10,6 +10,7 @@ With the Romo library, you can:
 
 * Send move commands to drive the motors
 * Send commands to drive the aux ports
+* Play sounds with OpenAL/AVPlayer, the library will handle switching from Speaker to Headphone jack
 
 # Getting Started
 - - -
@@ -18,9 +19,19 @@ To get started with the library, download this entire Repository as a ZIP file (
 
 ## iOS & XCode
 
-Once you have all the files, drag the RomoLibrary folder into your project.
+Once you have all the files, drag the RomoIOS and RomoLibrary folders into your project.
 
 ![Dragging the folder into Project]()
+
+Include the following frameworks in your project:
+
+* OpenAL.framework
+* MediaPlayer.framework
+* AVFoundation.framework
+* AudioToolbox.framework
+* Foundation.framework
+
+![Adding Frameworks to Project]()
 
 In your ViewController.h or AppDelegate.h file, import the RomoMovement.h file:
 
