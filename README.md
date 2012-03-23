@@ -21,7 +21,7 @@ To get started with the library, download this entire Repository as a ZIP file (
 
 Once you have all the files, drag the RomoIOS and RomoLibrary folders into your project.
 
-![Dragging the folder into Project]()
+![Dragging the folder into Project](http://romotive.com/media/Github/SDK/RomoSDK-Sample-DragFolders.png)
 
 Include the following frameworks in your project:
 
@@ -31,7 +31,10 @@ Include the following frameworks in your project:
 * AudioToolbox.framework
 * Foundation.framework
 
-![Adding Frameworks to Project]()
+![Adding Frameworks to Project](http://romotive.com/media/Github/SDK/RomoSDK-Sample-BuildPhases.png)
+
+__IMPORTANT: ARC Projects__
+If you are build an ARC Project under Xcode, you need to add the flag: __-fno-objc-arc__ to the Romo Compile Source Files.
 
 In your ViewController.h or AppDelegate.h file, import the RomoMovement.h file:
 
