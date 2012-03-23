@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF4CCADB151BC3420095A9FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCADA151BC3420095A9FD /* UIKit.framework */; };
+		BF4CCADD151BC3420095A9FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCADC151BC3420095A9FD /* Foundation.framework */; };
+		BF4CCADF151BC3420095A9FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCADE151BC3420095A9FD /* CoreGraphics.framework */; };
+		BF4CCAE5151BC3420095A9FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCAE3151BC3420095A9FD /* InfoPlist.strings */; };
+		BF4CCAE7151BC3420095A9FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCAE6151BC3420095A9FD /* main.m */; };
+		BF4CCAEB151BC3420095A9FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCAEA151BC3420095A9FD /* AppDelegate.m */; };
+		BF4CCB08151BC3870095A9FD /* SlidersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB06151BC3870095A9FD /* SlidersVC.m */; };
+		BF4CCB09151BC3870095A9FD /* SlidersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB07151BC3870095A9FD /* SlidersVC.xib */; };
+		BF4CCB0D151BC3EB0095A9FD /* ListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB0B151BC3EB0095A9FD /* ListVC.m */; };
+		BF4CCB0E151BC3EB0095A9FD /* ListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB0C151BC3EB0095A9FD /* ListVC.xib */; };
+		BF4CCB1A151BC5D70095A9FD /* RSTabsAdjust.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB15151BC5D70095A9FD /* RSTabsAdjust.png */; };
+		BF4CCB1B151BC5D70095A9FD /* RSTabsAdjust@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB16151BC5D70095A9FD /* RSTabsAdjust@2x.png */; };
+		BF4CCB1C151BC5D70095A9FD /* RSTabsGears.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB17151BC5D70095A9FD /* RSTabsGears.png */; };
+		BF4CCB1D151BC5D70095A9FD /* RSTabsGears@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB18151BC5D70095A9FD /* RSTabsGears@2x.png */; };
+		BF4CCB34151BC9590095A9FD /* RomoMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB20151BC9590095A9FD /* RomoMovement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB35151BC9590095A9FD /* AudioInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB22151BC9590095A9FD /* AudioInterface.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB36151BC9590095A9FD /* AudioInterfaceOpenAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB24151BC9590095A9FD /* AudioInterfaceOpenAL.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB37151BC9590095A9FD /* AudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB26151BC9590095A9FD /* AudioManager.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB38151BC9590095A9FD /* AudioThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB28151BC9590095A9FD /* AudioThread.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB39151BC9590095A9FD /* NativeManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB2C151BC9590095A9FD /* NativeManager.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB3A151BC9590095A9FD /* ResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB2D151BC9590095A9FD /* ResourceManager.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB3B151BC9590095A9FD /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB30151BC9590095A9FD /* Thread.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB3C151BC9590095A9FD /* WavFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB32151BC9590095A9FD /* WavFile.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB3F151BCA050095A9FD /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCB3E151BCA050095A9FD /* OpenAL.framework */; };
+		BF4CCB41151BCA0E0095A9FD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCB40151BCA0E0095A9FD /* AudioToolbox.framework */; };
+		BF4CCB43151BCA130095A9FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCB42151BCA130095A9FD /* AVFoundation.framework */; };
+		BF4CCB45151BCA1C0095A9FD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCB44151BCA1C0095A9FD /* MediaPlayer.framework */; };
+		BF4CCB49151BD0380095A9FD /* CmdOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB47151BD0380095A9FD /* CmdOptionsVC.m */; };
+		BF4CCB4A151BD0380095A9FD /* CmdOptionsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB48151BD0380095A9FD /* CmdOptionsVC.xib */; };
+		BF4CCB65151C29710095A9FD /* R2UI_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB64151C29710095A9FD /* R2UI_Logo.png */; };
+		BF4CCB6B151C34B20095A9FD /* appIcon@57.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB6A151C34B20095A9FD /* appIcon@57.png */; };
+		BF4CCB6D151C34B40095A9FD /* appIcon@114.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB6C151C34B40095A9FD /* appIcon@114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF4CCAD6151BC3420095A9FD /* RomoSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomoSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4CCADA151BC3420095A9FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF4CCADC151BC3420095A9FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF4CCADE151BC3420095A9FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF4CCAE2151BC3420095A9FD /* RomoSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomoSampleApp-Info.plist"; sourceTree = "<group>"; };
+		BF4CCAE4151BC3420095A9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF4CCAE6151BC3420095A9FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF4CCAE8151BC3420095A9FD /* RomoSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RomoSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		BF4CCAE9151BC3420095A9FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF4CCAEA151BC3420095A9FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF4CCB05151BC3870095A9FD /* SlidersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidersVC.h; sourceTree = "<group>"; };
+		BF4CCB06151BC3870095A9FD /* SlidersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidersVC.m; sourceTree = "<group>"; };
+		BF4CCB07151BC3870095A9FD /* SlidersVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidersVC.xib; sourceTree = "<group>"; };
+		BF4CCB0A151BC3EB0095A9FD /* ListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListVC.h; sourceTree = "<group>"; };
+		BF4CCB0B151BC3EB0095A9FD /* ListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListVC.m; sourceTree = "<group>"; };
+		BF4CCB0C151BC3EB0095A9FD /* ListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListVC.xib; sourceTree = "<group>"; };
+		BF4CCB15151BC5D70095A9FD /* RSTabsAdjust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSTabsAdjust.png; sourceTree = "<group>"; };
+		BF4CCB16151BC5D70095A9FD /* RSTabsAdjust@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSTabsAdjust@2x.png"; sourceTree = "<group>"; };
+		BF4CCB17151BC5D70095A9FD /* RSTabsGears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSTabsGears.png; sourceTree = "<group>"; };
+		BF4CCB18151BC5D70095A9FD /* RSTabsGears@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSTabsGears@2x.png"; sourceTree = "<group>"; };
+		BF4CCB1F151BC9590095A9FD /* RomoMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomoMovement.h; sourceTree = "<group>"; };
+		BF4CCB20151BC9590095A9FD /* RomoMovement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomoMovement.m; sourceTree = "<group>"; };
+		BF4CCB22151BC9590095A9FD /* AudioInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioInterface.cpp; sourceTree = "<group>"; };
+		BF4CCB23151BC9590095A9FD /* AudioInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInterface.h; sourceTree = "<group>"; };
+		BF4CCB24151BC9590095A9FD /* AudioInterfaceOpenAL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioInterfaceOpenAL.cpp; sourceTree = "<group>"; };
+		BF4CCB25151BC9590095A9FD /* AudioInterfaceOpenAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInterfaceOpenAL.h; sourceTree = "<group>"; };
+		BF4CCB26151BC9590095A9FD /* AudioManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioManager.cpp; sourceTree = "<group>"; };
+		BF4CCB27151BC9590095A9FD /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		BF4CCB28151BC9590095A9FD /* AudioThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioThread.cpp; sourceTree = "<group>"; };
+		BF4CCB29151BC9590095A9FD /* AudioThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioThread.h; sourceTree = "<group>"; };
+		BF4CCB2A151BC9590095A9FD /* NativeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInterface.h; sourceTree = "<group>"; };
+		BF4CCB2B151BC9590095A9FD /* NativeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeManager.h; sourceTree = "<group>"; };
+		BF4CCB2C151BC9590095A9FD /* NativeManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeManager.mm; sourceTree = "<group>"; };
+		BF4CCB2D151BC9590095A9FD /* ResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourceManager.cpp; sourceTree = "<group>"; };
+		BF4CCB2E151BC9590095A9FD /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		BF4CCB2F151BC9590095A9FD /* RomoInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomoInclude.h; sourceTree = "<group>"; };
+		BF4CCB30151BC9590095A9FD /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
+		BF4CCB31151BC9590095A9FD /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		BF4CCB32151BC9590095A9FD /* WavFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WavFile.cpp; sourceTree = "<group>"; };
+		BF4CCB33151BC9590095A9FD /* WavFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavFile.h; sourceTree = "<group>"; };
+		BF4CCB3E151BCA050095A9FD /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		BF4CCB40151BCA0E0095A9FD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BF4CCB42151BCA130095A9FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BF4CCB44151BCA1C0095A9FD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BF4CCB46151BD0380095A9FD /* CmdOptionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdOptionsVC.h; sourceTree = "<group>"; };
+		BF4CCB47151BD0380095A9FD /* CmdOptionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CmdOptionsVC.m; sourceTree = "<group>"; };
+		BF4CCB48151BD0380095A9FD /* CmdOptionsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CmdOptionsVC.xib; sourceTree = "<group>"; };
+		BF4CCB64151C29710095A9FD /* R2UI_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R2UI_Logo.png; sourceTree = "<group>"; };
+		BF4CCB6A151C34B20095A9FD /* appIcon@57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@57.png"; sourceTree = "<group>"; };
+		BF4CCB6C151C34B40095A9FD /* appIcon@114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@114.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF4CCAD3151BC3420095A9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4CCB45151BCA1C0095A9FD /* MediaPlayer.framework in Frameworks */,
+				BF4CCB43151BCA130095A9FD /* AVFoundation.framework in Frameworks */,
+				BF4CCB41151BCA0E0095A9FD /* AudioToolbox.framework in Frameworks */,
+				BF4CCB3F151BCA050095A9FD /* OpenAL.framework in Frameworks */,
+				BF4CCADD151BC3420095A9FD /* Foundation.framework in Frameworks */,
+				BF4CCADB151BC3420095A9FD /* UIKit.framework in Frameworks */,
+				BF4CCADF151BC3420095A9FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF4CCACB151BC3420095A9FD = {
+			isa = PBXGroup;
+			children = (
+				BF4CCB6C151C34B40095A9FD /* appIcon@114.png */,
+				BF4CCB6A151C34B20095A9FD /* appIcon@57.png */,
+				BF4CCAE0151BC3420095A9FD /* RomoSampleApp */,
+				BF4CCAD9151BC3420095A9FD /* Frameworks */,
+				BF4CCAD7151BC3420095A9FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF4CCAD7151BC3420095A9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CCAD6151BC3420095A9FD /* RomoSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF4CCAD9151BC3420095A9FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CCB44151BCA1C0095A9FD /* MediaPlayer.framework */,
+				BF4CCB42151BCA130095A9FD /* AVFoundation.framework */,
+				BF4CCB40151BCA0E0095A9FD /* AudioToolbox.framework */,
+				BF4CCB3E151BCA050095A9FD /* OpenAL.framework */,
+				BF4CCADA151BC3420095A9FD /* UIKit.framework */,
+				BF4CCADC151BC3420095A9FD /* Foundation.framework */,
+				BF4CCADE151BC3420095A9FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4CCAE0151BC3420095A9FD /* RomoSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CCB1E151BC9590095A9FD /* RomoIOS */,
+				BF4CCB21151BC9590095A9FD /* RomoLibrary */,
+				BF4CCB13151BC5D70095A9FD /* Static */,
+				BF4CCAE9151BC3420095A9FD /* AppDelegate.h */,
+				BF4CCAEA151BC3420095A9FD /* AppDelegate.m */,
+				BF4CCB05151BC3870095A9FD /* SlidersVC.h */,
+				BF4CCB06151BC3870095A9FD /* SlidersVC.m */,
+				BF4CCB07151BC3870095A9FD /* SlidersVC.xib */,
+				BF4CCB0A151BC3EB0095A9FD /* ListVC.h */,
+				BF4CCB0B151BC3EB0095A9FD /* ListVC.m */,
+				BF4CCB0C151BC3EB0095A9FD /* ListVC.xib */,
+				BF4CCB46151BD0380095A9FD /* CmdOptionsVC.h */,
+				BF4CCB47151BD0380095A9FD /* CmdOptionsVC.m */,
+				BF4CCB48151BD0380095A9FD /* CmdOptionsVC.xib */,
+				BF4CCAE1151BC3420095A9FD /* Supporting Files */,
+			);
+			path = RomoSampleApp;
+			sourceTree = "<group>";
+		};
+		BF4CCAE1151BC3420095A9FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CCAE2151BC3420095A9FD /* RomoSampleApp-Info.plist */,
+				BF4CCAE3151BC3420095A9FD /* InfoPlist.strings */,
+				BF4CCAE6151BC3420095A9FD /* main.m */,
+				BF4CCAE8151BC3420095A9FD /* RomoSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF4CCB13151BC5D70095A9FD /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CCB14151BC5D70095A9FD /* Images */,
+				BF4CCB19151BC5D70095A9FD /* Sounds */,
+			);
+			path = Static;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF4CCB14151BC5D70095A9FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CCB64151C29710095A9FD /* R2UI_Logo.png */,
+				BF4CCB15151BC5D70095A9FD /* RSTabsAdjust.png */,
+				BF4CCB16151BC5D70095A9FD /* RSTabsAdjust@2x.png */,
+				BF4CCB17151BC5D70095A9FD /* RSTabsGears.png */,
+				BF4CCB18151BC5D70095A9FD /* RSTabsGears@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BF4CCB19151BC5D70095A9FD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		BF4CCB1E151BC9590095A9FD /* RomoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CCB1F151BC9590095A9FD /* RomoMovement.h */,
+				BF4CCB20151BC9590095A9FD /* RomoMovement.m */,
+			);
+			name = RomoIOS;
+			path = ../../../RomoIOS;
+			sourceTree = "<group>";
+		};
+		BF4CCB21151BC9590095A9FD /* RomoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CCB22151BC9590095A9FD /* AudioInterface.cpp */,
+				BF4CCB23151BC9590095A9FD /* AudioInterface.h */,
+				BF4CCB24151BC9590095A9FD /* AudioInterfaceOpenAL.cpp */,
+				BF4CCB25151BC9590095A9FD /* AudioInterfaceOpenAL.h */,
+				BF4CCB26151BC9590095A9FD /* AudioManager.cpp */,
+				BF4CCB27151BC9590095A9FD /* AudioManager.h */,
+				BF4CCB28151BC9590095A9FD /* AudioThread.cpp */,
+				BF4CCB29151BC9590095A9FD /* AudioThread.h */,
+				BF4CCB2A151BC9590095A9FD /* NativeInterface.h */,
+				BF4CCB2B151BC9590095A9FD /* NativeManager.h */,
+				BF4CCB2C151BC9590095A9FD /* NativeManager.mm */,
+				BF4CCB2D151BC9590095A9FD /* ResourceManager.cpp */,
+				BF4CCB2E151BC9590095A9FD /* ResourceManager.h */,
+				BF4CCB2F151BC9590095A9FD /* RomoInclude.h */,
+				BF4CCB30151BC9590095A9FD /* Thread.cpp */,
+				BF4CCB31151BC9590095A9FD /* Thread.h */,
+				BF4CCB32151BC9590095A9FD /* WavFile.cpp */,
+				BF4CCB33151BC9590095A9FD /* WavFile.h */,
+			);
+			name = RomoLibrary;
+			path = ../../../RomoLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF4CCAD5151BC3420095A9FD /* RomoSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4CCB02151BC3420095A9FD /* Build configuration list for PBXNativeTarget "RomoSampleApp" */;
+			buildPhases = (
+				BF4CCAD2151BC3420095A9FD /* Sources */,
+				BF4CCAD3151BC3420095A9FD /* Frameworks */,
+				BF4CCAD4151BC3420095A9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomoSampleApp;
+			productName = RomoSampleApp;
+			productReference = BF4CCAD6151BC3420095A9FD /* RomoSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF4CCACD151BC3420095A9FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BF4CCAD0151BC3420095A9FD /* Build configuration list for PBXProject "RomoSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF4CCACB151BC3420095A9FD;
+			productRefGroup = BF4CCAD7151BC3420095A9FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF4CCAD5151BC3420095A9FD /* RomoSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF4CCAD4151BC3420095A9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4CCAE5151BC3420095A9FD /* InfoPlist.strings in Resources */,
+				BF4CCB09151BC3870095A9FD /* SlidersVC.xib in Resources */,
+				BF4CCB0E151BC3EB0095A9FD /* ListVC.xib in Resources */,
+				BF4CCB1A151BC5D70095A9FD /* RSTabsAdjust.png in Resources */,
+				BF4CCB1B151BC5D70095A9FD /* RSTabsAdjust@2x.png in Resources */,
+				BF4CCB1C151BC5D70095A9FD /* RSTabsGears.png in Resources */,
+				BF4CCB1D151BC5D70095A9FD /* RSTabsGears@2x.png in Resources */,
+				BF4CCB4A151BD0380095A9FD /* CmdOptionsVC.xib in Resources */,
+				BF4CCB65151C29710095A9FD /* R2UI_Logo.png in Resources */,
+				BF4CCB6B151C34B20095A9FD /* appIcon@57.png in Resources */,
+				BF4CCB6D151C34B40095A9FD /* appIcon@114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF4CCAD2151BC3420095A9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4CCAE7151BC3420095A9FD /* main.m in Sources */,
+				BF4CCAEB151BC3420095A9FD /* AppDelegate.m in Sources */,
+				BF4CCB08151BC3870095A9FD /* SlidersVC.m in Sources */,
+				BF4CCB0D151BC3EB0095A9FD /* ListVC.m in Sources */,
+				BF4CCB34151BC9590095A9FD /* RomoMovement.m in Sources */,
+				BF4CCB35151BC9590095A9FD /* AudioInterface.cpp in Sources */,
+				BF4CCB36151BC9590095A9FD /* AudioInterfaceOpenAL.cpp in Sources */,
+				BF4CCB37151BC9590095A9FD /* AudioManager.cpp in Sources */,
+				BF4CCB38151BC9590095A9FD /* AudioThread.cpp in Sources */,
+				BF4CCB39151BC9590095A9FD /* NativeManager.mm in Sources */,
+				BF4CCB3A151BC9590095A9FD /* ResourceManager.cpp in Sources */,
+				BF4CCB3B151BC9590095A9FD /* Thread.cpp in Sources */,
+				BF4CCB3C151BC9590095A9FD /* WavFile.cpp in Sources */,
+				BF4CCB49151BD0380095A9FD /* CmdOptionsVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF4CCAE3151BC3420095A9FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4CCAE4151BC3420095A9FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF4CCB00151BC3420095A9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF4CCB01151BC3420095A9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF4CCB03151BC3420095A9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomoSampleApp/RomoSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "RomoSampleApp/RomoSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF4CCB04151BC3420095A9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomoSampleApp/RomoSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "RomoSampleApp/RomoSampleApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF4CCAD0151BC3420095A9FD /* Build configuration list for PBXProject "RomoSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4CCB00151BC3420095A9FD /* Debug */,
+				BF4CCB01151BC3420095A9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF4CCB02151BC3420095A9FD /* Build configuration list for PBXNativeTarget "RomoSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4CCB03151BC3420095A9FD /* Debug */,
+				BF4CCB04151BC3420095A9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF4CCACD151BC3420095A9FD /* Project object */;
+}
