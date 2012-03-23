@@ -89,7 +89,7 @@ But you just as easily do:
 [romo moveRomoforTime:1.3 withLeft:64 andRight:192];
 ````
 
-# Why do this instead of an SDK or static library?
+# Why do this instead of a Framework or static library?
 - - -
 We wanted our work to be easily portable and shareable with our Romo developers. Romo, in his current form, was built to be hackable. We believe that our developers will awesome things with Romo and contribute back to the Romo Library.
 
