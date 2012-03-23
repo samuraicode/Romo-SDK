@@ -21,24 +21,24 @@
 		BF4CCB1B151BC5D70095A9FD /* RSTabsAdjust@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB16151BC5D70095A9FD /* RSTabsAdjust@2x.png */; };
 		BF4CCB1C151BC5D70095A9FD /* RSTabsGears.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB17151BC5D70095A9FD /* RSTabsGears.png */; };
 		BF4CCB1D151BC5D70095A9FD /* RSTabsGears@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB18151BC5D70095A9FD /* RSTabsGears@2x.png */; };
-		BF4CCB34151BC9590095A9FD /* RomoMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB20151BC9590095A9FD /* RomoMovement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BF4CCB35151BC9590095A9FD /* AudioInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB22151BC9590095A9FD /* AudioInterface.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BF4CCB36151BC9590095A9FD /* AudioInterfaceOpenAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB24151BC9590095A9FD /* AudioInterfaceOpenAL.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BF4CCB37151BC9590095A9FD /* AudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB26151BC9590095A9FD /* AudioManager.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BF4CCB38151BC9590095A9FD /* AudioThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB28151BC9590095A9FD /* AudioThread.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BF4CCB39151BC9590095A9FD /* NativeManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB2C151BC9590095A9FD /* NativeManager.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BF4CCB3A151BC9590095A9FD /* ResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB2D151BC9590095A9FD /* ResourceManager.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BF4CCB3B151BC9590095A9FD /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB30151BC9590095A9FD /* Thread.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BF4CCB3C151BC9590095A9FD /* WavFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB32151BC9590095A9FD /* WavFile.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BF4CCB3F151BCA050095A9FD /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCB3E151BCA050095A9FD /* OpenAL.framework */; };
 		BF4CCB41151BCA0E0095A9FD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCB40151BCA0E0095A9FD /* AudioToolbox.framework */; };
 		BF4CCB43151BCA130095A9FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCB42151BCA130095A9FD /* AVFoundation.framework */; };
 		BF4CCB45151BCA1C0095A9FD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4CCB44151BCA1C0095A9FD /* MediaPlayer.framework */; };
-		BF4CCB49151BD0380095A9FD /* CmdOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB47151BD0380095A9FD /* CmdOptionsVC.m */; };
+		BF4CCB49151BD0380095A9FD /* CmdOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB47151BD0380095A9FD /* CmdOptionsVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BF4CCB4A151BD0380095A9FD /* CmdOptionsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB48151BD0380095A9FD /* CmdOptionsVC.xib */; };
 		BF4CCB65151C29710095A9FD /* R2UI_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB64151C29710095A9FD /* R2UI_Logo.png */; };
 		BF4CCB6B151C34B20095A9FD /* appIcon@57.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB6A151C34B20095A9FD /* appIcon@57.png */; };
 		BF4CCB6D151C34B40095A9FD /* appIcon@114.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4CCB6C151C34B40095A9FD /* appIcon@114.png */; };
+		BF4CCB89151C37C60095A9FD /* RomoMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB75151C37C60095A9FD /* RomoMovement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB8A151C37C60095A9FD /* AudioInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB77151C37C60095A9FD /* AudioInterface.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB8B151C37C60095A9FD /* AudioInterfaceOpenAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB79151C37C60095A9FD /* AudioInterfaceOpenAL.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB8C151C37C60095A9FD /* AudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB7B151C37C60095A9FD /* AudioManager.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB8D151C37C60095A9FD /* AudioThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB7D151C37C60095A9FD /* AudioThread.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB8E151C37C60095A9FD /* NativeManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB81151C37C60095A9FD /* NativeManager.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB8F151C37C60095A9FD /* ResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB82151C37C60095A9FD /* ResourceManager.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB90151C37C60095A9FD /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB85151C37C60095A9FD /* Thread.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF4CCB91151C37C60095A9FD /* WavFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4CCB87151C37C60095A9FD /* WavFile.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,26 +62,6 @@
 		BF4CCB16151BC5D70095A9FD /* RSTabsAdjust@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSTabsAdjust@2x.png"; sourceTree = "<group>"; };
 		BF4CCB17151BC5D70095A9FD /* RSTabsGears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RSTabsGears.png; sourceTree = "<group>"; };
 		BF4CCB18151BC5D70095A9FD /* RSTabsGears@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSTabsGears@2x.png"; sourceTree = "<group>"; };
-		BF4CCB1F151BC9590095A9FD /* RomoMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomoMovement.h; sourceTree = "<group>"; };
-		BF4CCB20151BC9590095A9FD /* RomoMovement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomoMovement.m; sourceTree = "<group>"; };
-		BF4CCB22151BC9590095A9FD /* AudioInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioInterface.cpp; sourceTree = "<group>"; };
-		BF4CCB23151BC9590095A9FD /* AudioInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInterface.h; sourceTree = "<group>"; };
-		BF4CCB24151BC9590095A9FD /* AudioInterfaceOpenAL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioInterfaceOpenAL.cpp; sourceTree = "<group>"; };
-		BF4CCB25151BC9590095A9FD /* AudioInterfaceOpenAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInterfaceOpenAL.h; sourceTree = "<group>"; };
-		BF4CCB26151BC9590095A9FD /* AudioManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioManager.cpp; sourceTree = "<group>"; };
-		BF4CCB27151BC9590095A9FD /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
-		BF4CCB28151BC9590095A9FD /* AudioThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioThread.cpp; sourceTree = "<group>"; };
-		BF4CCB29151BC9590095A9FD /* AudioThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioThread.h; sourceTree = "<group>"; };
-		BF4CCB2A151BC9590095A9FD /* NativeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInterface.h; sourceTree = "<group>"; };
-		BF4CCB2B151BC9590095A9FD /* NativeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeManager.h; sourceTree = "<group>"; };
-		BF4CCB2C151BC9590095A9FD /* NativeManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeManager.mm; sourceTree = "<group>"; };
-		BF4CCB2D151BC9590095A9FD /* ResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourceManager.cpp; sourceTree = "<group>"; };
-		BF4CCB2E151BC9590095A9FD /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
-		BF4CCB2F151BC9590095A9FD /* RomoInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomoInclude.h; sourceTree = "<group>"; };
-		BF4CCB30151BC9590095A9FD /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
-		BF4CCB31151BC9590095A9FD /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
-		BF4CCB32151BC9590095A9FD /* WavFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WavFile.cpp; sourceTree = "<group>"; };
-		BF4CCB33151BC9590095A9FD /* WavFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavFile.h; sourceTree = "<group>"; };
 		BF4CCB3E151BCA050095A9FD /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		BF4CCB40151BCA0E0095A9FD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		BF4CCB42151BCA130095A9FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +72,26 @@
 		BF4CCB64151C29710095A9FD /* R2UI_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R2UI_Logo.png; sourceTree = "<group>"; };
 		BF4CCB6A151C34B20095A9FD /* appIcon@57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@57.png"; sourceTree = "<group>"; };
 		BF4CCB6C151C34B40095A9FD /* appIcon@114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@114.png"; sourceTree = "<group>"; };
+		BF4CCB74151C37C60095A9FD /* RomoMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomoMovement.h; sourceTree = "<group>"; };
+		BF4CCB75151C37C60095A9FD /* RomoMovement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomoMovement.m; sourceTree = "<group>"; };
+		BF4CCB77151C37C60095A9FD /* AudioInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioInterface.cpp; sourceTree = "<group>"; };
+		BF4CCB78151C37C60095A9FD /* AudioInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInterface.h; sourceTree = "<group>"; };
+		BF4CCB79151C37C60095A9FD /* AudioInterfaceOpenAL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioInterfaceOpenAL.cpp; sourceTree = "<group>"; };
+		BF4CCB7A151C37C60095A9FD /* AudioInterfaceOpenAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInterfaceOpenAL.h; sourceTree = "<group>"; };
+		BF4CCB7B151C37C60095A9FD /* AudioManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioManager.cpp; sourceTree = "<group>"; };
+		BF4CCB7C151C37C60095A9FD /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		BF4CCB7D151C37C60095A9FD /* AudioThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioThread.cpp; sourceTree = "<group>"; };
+		BF4CCB7E151C37C60095A9FD /* AudioThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioThread.h; sourceTree = "<group>"; };
+		BF4CCB7F151C37C60095A9FD /* NativeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInterface.h; sourceTree = "<group>"; };
+		BF4CCB80151C37C60095A9FD /* NativeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeManager.h; sourceTree = "<group>"; };
+		BF4CCB81151C37C60095A9FD /* NativeManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeManager.mm; sourceTree = "<group>"; };
+		BF4CCB82151C37C60095A9FD /* ResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourceManager.cpp; sourceTree = "<group>"; };
+		BF4CCB83151C37C60095A9FD /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		BF4CCB84151C37C60095A9FD /* RomoInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomoInclude.h; sourceTree = "<group>"; };
+		BF4CCB85151C37C60095A9FD /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
+		BF4CCB86151C37C60095A9FD /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		BF4CCB87151C37C60095A9FD /* WavFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WavFile.cpp; sourceTree = "<group>"; };
+		BF4CCB88151C37C60095A9FD /* WavFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavFile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +115,8 @@
 		BF4CCACB151BC3420095A9FD = {
 			isa = PBXGroup;
 			children = (
+				BF4CCB73151C37C60095A9FD /* RomoIOS */,
+				BF4CCB76151C37C60095A9FD /* RomoLibrary */,
 				BF4CCB6C151C34B40095A9FD /* appIcon@114.png */,
 				BF4CCB6A151C34B20095A9FD /* appIcon@57.png */,
 				BF4CCAE0151BC3420095A9FD /* RomoSampleApp */,
@@ -148,8 +150,6 @@
 		BF4CCAE0151BC3420095A9FD /* RomoSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				BF4CCB1E151BC9590095A9FD /* RomoIOS */,
-				BF4CCB21151BC9590095A9FD /* RomoLibrary */,
 				BF4CCB13151BC5D70095A9FD /* Static */,
 				BF4CCAE9151BC3420095A9FD /* AppDelegate.h */,
 				BF4CCAEA151BC3420095A9FD /* AppDelegate.m */,
@@ -206,40 +206,40 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		BF4CCB1E151BC9590095A9FD /* RomoIOS */ = {
+		BF4CCB73151C37C60095A9FD /* RomoIOS */ = {
 			isa = PBXGroup;
 			children = (
-				BF4CCB1F151BC9590095A9FD /* RomoMovement.h */,
-				BF4CCB20151BC9590095A9FD /* RomoMovement.m */,
+				BF4CCB74151C37C60095A9FD /* RomoMovement.h */,
+				BF4CCB75151C37C60095A9FD /* RomoMovement.m */,
 			);
 			name = RomoIOS;
-			path = ../../../RomoIOS;
+			path = ../../RomoIOS;
 			sourceTree = "<group>";
 		};
-		BF4CCB21151BC9590095A9FD /* RomoLibrary */ = {
+		BF4CCB76151C37C60095A9FD /* RomoLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				BF4CCB22151BC9590095A9FD /* AudioInterface.cpp */,
-				BF4CCB23151BC9590095A9FD /* AudioInterface.h */,
-				BF4CCB24151BC9590095A9FD /* AudioInterfaceOpenAL.cpp */,
-				BF4CCB25151BC9590095A9FD /* AudioInterfaceOpenAL.h */,
-				BF4CCB26151BC9590095A9FD /* AudioManager.cpp */,
-				BF4CCB27151BC9590095A9FD /* AudioManager.h */,
-				BF4CCB28151BC9590095A9FD /* AudioThread.cpp */,
-				BF4CCB29151BC9590095A9FD /* AudioThread.h */,
-				BF4CCB2A151BC9590095A9FD /* NativeInterface.h */,
-				BF4CCB2B151BC9590095A9FD /* NativeManager.h */,
-				BF4CCB2C151BC9590095A9FD /* NativeManager.mm */,
-				BF4CCB2D151BC9590095A9FD /* ResourceManager.cpp */,
-				BF4CCB2E151BC9590095A9FD /* ResourceManager.h */,
-				BF4CCB2F151BC9590095A9FD /* RomoInclude.h */,
-				BF4CCB30151BC9590095A9FD /* Thread.cpp */,
-				BF4CCB31151BC9590095A9FD /* Thread.h */,
-				BF4CCB32151BC9590095A9FD /* WavFile.cpp */,
-				BF4CCB33151BC9590095A9FD /* WavFile.h */,
+				BF4CCB77151C37C60095A9FD /* AudioInterface.cpp */,
+				BF4CCB78151C37C60095A9FD /* AudioInterface.h */,
+				BF4CCB79151C37C60095A9FD /* AudioInterfaceOpenAL.cpp */,
+				BF4CCB7A151C37C60095A9FD /* AudioInterfaceOpenAL.h */,
+				BF4CCB7B151C37C60095A9FD /* AudioManager.cpp */,
+				BF4CCB7C151C37C60095A9FD /* AudioManager.h */,
+				BF4CCB7D151C37C60095A9FD /* AudioThread.cpp */,
+				BF4CCB7E151C37C60095A9FD /* AudioThread.h */,
+				BF4CCB7F151C37C60095A9FD /* NativeInterface.h */,
+				BF4CCB80151C37C60095A9FD /* NativeManager.h */,
+				BF4CCB81151C37C60095A9FD /* NativeManager.mm */,
+				BF4CCB82151C37C60095A9FD /* ResourceManager.cpp */,
+				BF4CCB83151C37C60095A9FD /* ResourceManager.h */,
+				BF4CCB84151C37C60095A9FD /* RomoInclude.h */,
+				BF4CCB85151C37C60095A9FD /* Thread.cpp */,
+				BF4CCB86151C37C60095A9FD /* Thread.h */,
+				BF4CCB87151C37C60095A9FD /* WavFile.cpp */,
+				BF4CCB88151C37C60095A9FD /* WavFile.h */,
 			);
 			name = RomoLibrary;
-			path = ../../../RomoLibrary;
+			path = ../../RomoLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,16 +317,16 @@
 				BF4CCAEB151BC3420095A9FD /* AppDelegate.m in Sources */,
 				BF4CCB08151BC3870095A9FD /* SlidersVC.m in Sources */,
 				BF4CCB0D151BC3EB0095A9FD /* ListVC.m in Sources */,
-				BF4CCB34151BC9590095A9FD /* RomoMovement.m in Sources */,
-				BF4CCB35151BC9590095A9FD /* AudioInterface.cpp in Sources */,
-				BF4CCB36151BC9590095A9FD /* AudioInterfaceOpenAL.cpp in Sources */,
-				BF4CCB37151BC9590095A9FD /* AudioManager.cpp in Sources */,
-				BF4CCB38151BC9590095A9FD /* AudioThread.cpp in Sources */,
-				BF4CCB39151BC9590095A9FD /* NativeManager.mm in Sources */,
-				BF4CCB3A151BC9590095A9FD /* ResourceManager.cpp in Sources */,
-				BF4CCB3B151BC9590095A9FD /* Thread.cpp in Sources */,
-				BF4CCB3C151BC9590095A9FD /* WavFile.cpp in Sources */,
 				BF4CCB49151BD0380095A9FD /* CmdOptionsVC.m in Sources */,
+				BF4CCB89151C37C60095A9FD /* RomoMovement.m in Sources */,
+				BF4CCB8A151C37C60095A9FD /* AudioInterface.cpp in Sources */,
+				BF4CCB8B151C37C60095A9FD /* AudioInterfaceOpenAL.cpp in Sources */,
+				BF4CCB8C151C37C60095A9FD /* AudioManager.cpp in Sources */,
+				BF4CCB8D151C37C60095A9FD /* AudioThread.cpp in Sources */,
+				BF4CCB8E151C37C60095A9FD /* NativeManager.mm in Sources */,
+				BF4CCB8F151C37C60095A9FD /* ResourceManager.cpp in Sources */,
+				BF4CCB90151C37C60095A9FD /* Thread.cpp in Sources */,
+				BF4CCB91151C37C60095A9FD /* WavFile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +432,7 @@
 				BF4CCB04151BC3420095A9FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
