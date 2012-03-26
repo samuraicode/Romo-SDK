@@ -225,7 +225,6 @@
         _repeatTimer = [NSTimer timerWithTimeInterval:0.1 target:self selector:@selector(repeatTimerCallback) userInfo:nil repeats:YES];
         [[NSRunLoop mainRunLoop] addTimer:_repeatTimer forMode:NSDefaultRunLoopMode];
     } 
-    
 }
 - (void)stopMotors:(NSInteger) motorIndex
 {
@@ -356,6 +355,30 @@
         [self stopAllMotors];
     }
 }
+
+/****************************************
+ Repeat Timer Call back, for picking up move commands after route switching
+ ****************************************/
+- (void) repeatTimerCallback
+{
+    if (repeatCount < 5) {
+        NSLog(@"%i, %i",currentCmdLeft,currentCmdRight);
+        [[NativeManager shared] playMotorCommandLeft:currentCmdLeft commandRight:currentCmdRight];
+        repeatCount++;
+        
+    } else {
+        repeatCount = 0;
+        repeatCommandAfterFirstTime = NO;
+        
+        if ([_repeatTimer isValid]) {
+            [_repeatTimer invalidate];
+            _repeatTimer = nil;
+            [_repeatTimer release];
+        }
+    }
+}
+
+
 /****************************************
  Move Queues
  ****************************************/
