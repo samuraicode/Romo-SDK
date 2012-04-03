@@ -9,7 +9,7 @@
 #import "ListVC.h"
 
 @interface ListVC ()
-
+- (NSString *)stringForAuxValue:(int)auxValue;
 @end
 
 @implementation ListVC
