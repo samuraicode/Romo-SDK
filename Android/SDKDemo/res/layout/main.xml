@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1" 
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="5dp">
+	
+	<LinearLayout android:id="@+id/topRow"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight=".3"
+		android:padding="5dp">
+		
+		<Button android:id="@+id/l_f"
+	        android:text="LF"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="0.3"
+			android:layout_margin="5dp"
+	        android:padding="5dp"
+			android:onClick="buttonPressed"/>
+		
+		<Button android:id="@+id/f"
+           	android:text="F"
+        	android:layout_width="wrap_content"
+          	android:layout_height="match_parent"
+           	android:layout_weight="0.3"
+            android:layout_margin="5dp"
+           	android:padding="5dp"
+            android:onClick="buttonPressed"/>
+		
+		<Button android:id="@+id/r_f"
+        	android:text="RF"
+ 			android:layout_width="wrap_content"
+       		android:layout_height="match_parent"
+	    	android:layout_weight=".3"
+			android:layout_margin="5dp"
+			android:padding="5dp"
+			android:onClick="buttonPressed"/>
+		
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/middleRow"
+	 	android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.3"
+		android:padding="5dp">     
+		     
+		<Button android:id="@+id/l"
+        	android:text="L"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+	        android:layout_weight=".3"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:onClick="buttonPressed"/>
+        
+        <Button android:id="@+id/s"
+        	android:text="S"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:layout_margin="5dp"
+           	android:padding="5dp"
+            android:onClick="buttonPressed"/>
+        
+        <Button android:id="@+id/r"
+            android:text="R"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        	android:layout_weight=".3"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+	        android:onClick="buttonPressed"/>
+	    
+	</LinearLayout>
+	    
+	<LinearLayout android:id="@+id/bottomRow"
+        android:orientation="horizontal"
+     	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:padding="5dp">
+        
+       	<Button android:id="@+id/l_b"
+           	android:text="LB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:onClick="buttonPressed"/>
+        	
+        <Button android:id="@+id/b"
+            android:text="B"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+	        android:layout_weight=".3"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:onClick="buttonPressed"/>
+            
+        <Button android:id="@+id/r_b"
+            android:text="RB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+	        android:layout_weight=".3"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:onClick="buttonPressed"/>
+        
+	</LinearLayout>
+	
+</LinearLayout>
